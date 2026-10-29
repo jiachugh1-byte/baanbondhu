@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BAANBONDHU - Guwahati Flood & Cattle Rescue</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="header">
+<b>BAANBONDHU - GUWAHATI</b><br>
+<span id="loc">Guwahati Exact Map - No API Key</span><br>
+<button onclick="getLocation()">📍 MY EXACT LOCATION</button>
+</div>
+<div id="map"></div>
+<div class="btns">
+<button class="red" onclick="redAlert()">🚨 RED + Siren</button>
+<button class="yellow" onclick="yellowAlert()">🐄 YELLOW</button>
+<button class="green" onclick="greenAlert()">🟢 GREEN</button>
+</div>
+<div id="log"></div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="map.js"></script>
+<script src="alerts.js"></script>
+<script src="geolocation.js"></script>
+</body>
+</html>

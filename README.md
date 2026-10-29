@@ -35,7 +35,7 @@ HTML, CSS, JavaScript, Leaflet Maps, Browser Geolocation API
 Building for our own people of Assam.
 
 ### Links
-- GitHub: (your repo link)
+- GitHub: https://github.com/jiachugh1-byte/baanbondhu
 - Live Demo: (will add after deployment)
 
 ---

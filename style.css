@@ -1,0 +1,8 @@
+body{margin:0;font-family:Arial;background:white}
+.header{background:#1a202c;color:white;padding:12px;text-align:center}
+.header button{margin-top:8px;padding:10px 18px;background:#3182ce;color:white;border:none;border-radius:8px;font-weight:bold}
+#map{height:65vh;background:#e5e3df}
+.btns{display:flex;gap:6px;padding:10px;background:white}
+.btns button{flex:1;padding:16px;border:none;border-radius:10px;color:white;font-weight:800}
+.btns .red{background:#e53e3e}.yellow{background:#d69e2e}.green{background:#2f855a}
+#log{height:15vh;overflow:auto;padding:6px;font-size:11px;background:#edf2f7}
