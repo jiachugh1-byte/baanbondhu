@@ -1,0 +1,21 @@
+{
+  "name": "baanbondhu-guwahati",
+  "version": "1.0.0",
+  "description": "BAANBONDHU - Guwahati Flood & Cattle Rescue Platform",
+  "main": "index.html",
+  "author": "Jia Chugh",
+  "license": "MIT",
+  "dependencies": {
+    "leaflet": "1.9.4"
+  },
+  "devDependencies": {
+    "live-server": "1.2.2"
+  },
+  "scripts": {
+    "start": "live-server --port=3000 --open=index.html"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  }
+}
